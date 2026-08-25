@@ -13,7 +13,7 @@ The time series is then analyzed using ACF, PACF and the Augmented Dickey-Fuller
 
 Finally, an ARIMA model is fitted to the temperature data and evaluated for different forecast horizons.
 
-![ARIMA Forecast](figures/arima_forecast.png)
+![ARIMA Forecast](figures/forecast.png)
 
 The forecasts should be interpreted with caution, as their plausibility is very limited by the simplicity of the model and the very long forecast horizon.
 
