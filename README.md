@@ -4,15 +4,18 @@ This project analyzes monthly global temperature anomalies from the HadCRUT5 dat
 
 First, LASSO regression is used to analyze the long-term temperature trend. Separate regressions for different time periods are also considered to compare changes in the trend over time.
 
-![LASSO Regression](plots/lasso_regression.png)
+![LASSO Regression](figures/lasso_regression.png)
 
 The time series is then analyzed using ACF, PACF and the Augmented Dickey-Fuller test. Seasonal differencing with a lag of 12 months is applied to investigate stationarity.
 
-![ACF and PACF](plots/acf_pacf.png)
+![ACF](figures/ACF.png)
+![PACF](figures/PACF.png)
 
 Finally, an ARIMA model is fitted to the temperature data and evaluated for different forecast horizons.
 
-![ARIMA Forecast](plots/arima_forecast.png)
+![ARIMA Forecast](figures/arima_forecast.png)
+
+The forecasts should be interpreted with caution, as their plausibility is very limited by the simplicity of the model and the very long forecast horizon.
 
 ## Methods
 
